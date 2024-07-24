@@ -1,0 +1,71 @@
+#daBody{
+    background-color: #2f2d2d;
+}
+
+#everything{
+    display: flex;
+    flex-direction: row;
+}
+
+#content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#content{
+    flex: 1;
+}
+
+#leftMenu{
+    justify-content: start;
+    background-color: #121212;
+    width: 200px;
+    height: 2000px;
+}
+
+#headerText{
+    background-color: #121212;
+}
+
+#navBar{
+    background-color: #121212;
+    height: 70px;
+    display: flex;
+    justify-content: start;
+
+}
+
+#brandText{
+    color: whitesmoke;
+    margin-top: 15px; 
+} 
+
+#balance{
+    background-color: #2f2d2d;
+    width: 100px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 15px;
+    margin-left: 300px;
+    margin-right: 300px; 
+    justify-content: center;
+}
+
+#logIn{
+    background-color: #2f2d2d;
+    width: 100px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 150px; 
+
+}
+
+#balanceText{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* #121212 */   
