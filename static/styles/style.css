@@ -32,7 +32,7 @@
     background-color: #121212;
     height: 70px;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
 
 }
 
@@ -47,8 +47,6 @@
     height: 50px;
     margin-top: 15px;
     border-radius: 15px;
-    margin-left: 300px;
-    margin-right: 300px; 
     justify-content: center;
 }
 
@@ -57,7 +55,7 @@
     width: 100px;
     height: 50px;
     margin-top: 15px;
-    margin-left: 150px; 
+   
 
 }
 
@@ -66,6 +64,83 @@
     text-align: center;
     margin-top: 10px;
 }
+
+#welcomeText{
+    color: whitesmoke;
+    text-align: center;
+}
+
+#gameScreen{
+    margin: 10px 10px 10px;
+}
+
+#doItWithUs{
+    color: green;
+}
+
+#miniBrandText{
+    color: green;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 46px;
+}
+
+#slotsButton{
+    background-color: #2f2d2d;
+    color: whitesmoke  ;
+    height: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-top: 3px;
+    justify-content: center;
+}
+
+#leftMenuText{
+    text-decoration: none !important;
+    color: whitesmoke;
+}
+
+
+@keyframes multipleColors {
+    16% {background-color: red;}
+    32% {background-color: orange;}
+    48% {background-color: yellow;}
+    64% {background-color: green;}
+    80% {background-color: blue;}
+    100% {background-color: purple;}
+
+
+}
+
+.casinoButtons:hover{
+    animation-name: multipleColors;
+    animation-duration: 750ms;
+    animation-iteration-count: infinite;
+}
+
+.unfinishedCasinoButtons:hover{
+    animation-name: multipleColors;
+    animation-duration: 750ms;
+    animation-iteration-count: infinite;
+}
+
+#gamesText{
+    color: whitesmoke;
+    padding-left: 5px;
+    padding-top: 3px;
+    margin-bottom: 0px;
+}
+
+#sportsText{
+    color: whitesmoke;
+    padding-left: 5px;
+    padding-top: 3px;
+    margin-bottom: 0px;
+}
+
+
+
 
 
 /* #121212 */   
