@@ -10,7 +10,10 @@
 <body id="daBody">
     <div id="everything">
         <div id="leftMenu">
-            <p id="miniBrandText">Do it with us!</p>
+
+            <a id="addFundsLink" href="addFundsPage">
+                <button id="addFundsButton">Add funds!</button>
+            </a>
             
             <div id="gamesSection">
                 <p id="gamesText">Games</p>
@@ -45,6 +48,16 @@
                         <a id="leftMenuText" class="unfinishedCasinoGame" href="http://127.0.0.1/error" >Basketball</a>
                     </div>
                 </div>
+
+                <div id="miscSection">
+                    <p id="miscText">Miscellaneous</p>
+                    <div id="slotsButton" class="casinoButtons">
+                        <a id="leftMenuText" class="unfinishedCasinoGame" href="http://127.0.0.1/error" >Celebrities</a>
+                    </div>
+                    <div id="slotsButton" class="casinoButtons">
+                         <a id="leftMenuText" class="unfinishedCasinoGame" href="http://127.0.0.1/error" >Elections</a>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -53,9 +66,10 @@
                 <div id="brandText">
                     <h2>M&R Online Casino</h2>
                 </div>
-
+                
+    
                 <div id="balance">
-                    <p id="balanceText">$500000</p>
+                    <p id="balanceText">${{Balance}}</p>
                 </div>
                 
                 <button id="logIn">

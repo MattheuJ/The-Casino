@@ -33,7 +33,6 @@
     height: 70px;
     display: flex;
     justify-content: space-between;
-
 }
 
 #brandText{
@@ -55,8 +54,6 @@
     width: 100px;
     height: 50px;
     margin-top: 15px;
-   
-
 }
 
 #balanceText{
@@ -133,11 +130,56 @@
 }
 
 #sportsText{
+    color: whitesmoke; 
+    padding-left: 5px;
+    padding-top: 3px;
+    margin-bottom: 0px;
+}
+
+#miscText{
     color: whitesmoke;
     padding-left: 5px;
     padding-top: 3px;
     margin-bottom: 0px;
 }
+
+#balance{
+    margin-left: 5px;
+}
+
+#addFundsButton{
+    margin-left: 50px;
+    background-color: #2f2d2d;
+    width: 100px;
+    height: 50px;
+    margin-top: 15px;
+    color: whitesmoke;
+
+}
+
+#addFundsButton:hover{
+    animation-name: multipleColors;
+    animation-duration: 750ms;
+    animation-iteration-count: infinite;
+}
+
+#addfundsLink:hover{
+    animation-name: multipleColors;
+    animation-duration: 750ms;
+    animation-iteration-count: infinite;
+}
+
+.gameTitle{
+    color: whitesmoke;
+    margin-left: 10px;
+}
+
+#gameScreen{
+    height: 500px;
+    background-color: blue;
+}
+
+
 
 
 
