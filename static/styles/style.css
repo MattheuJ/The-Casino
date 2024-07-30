@@ -179,8 +179,54 @@
     background-color: #121212;
 }
 
+#addFundsBody{
+    background-color: #121212;
+}
 
+#signUP{
+    background-color: #2f2d2d; 
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    translate: 500px 200px;
+}
 
+h1{
+    text-align: center;
+}
+
+form{
+    padding: 10px;
+    margin: 10px;
+}
+
+#fname{
+    width: 300px;
+    height: 25px;
+}
+
+#lname{
+    width: 300px;
+    height: 25px;
+}
+
+#submitButton{
+    translate: 0px 10px ;
+
+}
+
+#addFundsForm{
+    color: whitesmoke;
+}
+
+#mAndRAddFunds{
+    color: whitesmoke;
+}
+ 
+#paymentMethod{
+    width: 300px;
+    height: 35px;
+}
 
 
 

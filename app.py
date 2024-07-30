@@ -68,6 +68,25 @@ def error():
 
     return render_template('error.html', balance = balance)
 
+@app.route('/addfunds', methods = ['GET', 'POST'])
+def addFunds():   
+
+    from app import balance
+    from app import balanceData  
+
+    if request.method == "POST":
+        
+        amountAdded = int(request.form['amountAdded'])
+
+        with open("something.json") as file:
+            balanceData = json.load(file)
+            balanceData["balance"] = balance + amountAdded
+
+        with open('something.json', 'w') as file:
+                json.dump(balanceData,  file, indent=4)
+
+    return render_template('addFunds.html', url = url_for, balance = balance, amountAdded = amountAdded )
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80, debug=True)
