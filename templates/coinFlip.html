@@ -70,7 +70,7 @@
                 </div>
 
                 <div id="balance">
-                    <p id="balanceText">${{Balance}}</p>
+                    <p id="balanceText">${{balance}}</p>
                 </div>
 
                 <button id="logIn">
@@ -84,14 +84,16 @@
                 <h2 id="coinFlipTitle" class="gameTitle">Coinflip</h2>
                 <div id="gameScreen">
                     <form action="{{ url }}" method="POST" id="coinFlipForm">
-                        <input required type="number" name="betAmmount" placeholder="Bet amount">
+                        <input required type="number" id="betAmount" name="betAmount" placeholder="Bet amount">
                         <select id="headsOrTails" name="headsOrTails">
                             <option value="heads">Heads</option>
                             <option value="tails">Tails</option>
                           </select>
                         <input type="submit" id="lockInBet">
 
-                        <p> {{ didYouWin }}</p>
+                        
+
+                        <p> {{ didYouWin }}</p> <p> {{ balance }}</p>
                     </form>
                 </div>
 
