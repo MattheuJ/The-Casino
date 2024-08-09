@@ -28,6 +28,12 @@ def coinFlip():
         betAmount = int(request.form['betAmount'])
         winningSide = random.choice(coin)
 
+        with open('something.json', 'r') as file:
+            balanceData = json.load(file)
+            balance = balanceData["balance"]
+
+
+        
         with open("something.json") as file:
             balanceData = json.load(file)
             balanceData["betAmount"] = betAmount
